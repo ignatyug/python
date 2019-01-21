@@ -1,5 +1,7 @@
-def my():
-    number = input ('Ведите любое число:   ')
-    return print('Вы ввели с консоли: %s.' % number)
+def number():
+    a = input('Ведите первое число:   ')
+    b = input('Ведите второе число:   ')
+    return print('Ваш результат: %s.' % a + b)
 
-my()
+
+number()
