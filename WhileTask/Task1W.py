@@ -1,14 +1,12 @@
-def sum():
-    a = int(input('Enter the first number:   '))
-    c = int(input('Enter the second number:   '))
+def dream():
+    a = 0
+    c = int(input('Enter the number:   '))
     b = 100
-    while a <= b:
-        a = a + c
-        if a == b:
-            continue
+    while a < b:
+        a += c
         print(a)
-    else:
-        print('Stop:')
+
+    print('Stop:')
 
 
-sum()
+dream()
