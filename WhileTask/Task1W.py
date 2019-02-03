@@ -3,6 +3,8 @@ def dream():
     c = int(input('Enter the number:   '))
     b = 100
     while a < b:
+        if c <= 0:
+                break
         a += c
         print(a)
 
