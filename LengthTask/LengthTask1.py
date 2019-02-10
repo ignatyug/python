@@ -1,11 +1,10 @@
 def dream():
-    s = input('ready to continue the dialogue:   ')
-    listWords = s.split()
-    idLongestWord = 0
-    for i in range(1, len(listWords)):
-        if len(listWords[idLongestWord]) < len(listWords[i]):
-            idLongestWord = i
-    print(listWords[idLongestWord])
+    phrase = list(input('ready to continue the dialogue:   ').split())
+    result = phrase[0]
+    for element in phrase:
+        if len(element) > len(result):
+            result = element
+    print('\n', 'The longest of its own conclusions:    ', result)
 
 
 dream()
