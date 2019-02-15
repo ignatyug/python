@@ -1,17 +1,14 @@
 def dream():
     database = {'Petr Petrov': 'petr@gmail,com', 'John Smith': '+380-67234-55-55', 'Sasha Ivanov': 'ivanov@gmail.com'}
-    print('Before you start searching for a contact, you should know', '\n',
-          'that after the \"Stop\" ''command, you will complete the following contacts.', '\n')
-    while True:
+    print('User remember, if you want to stop the search, enter the \"stop\" ''command', '\n')
+    name = 0
+    while name != 'stop':
         name = input('Enter your username from your directory reference:   ')
-        if name == 'Stop':
-            print('I found what I was looking for.')
-            break
         if name in database:
             print(database.get(name))
         else:
-            print('NOT FOUND')
-            break
+            print('You entered an invalid parameter, try again')
+        name = input('If you want to continue, press enter:   ')
 
 
 dream()
