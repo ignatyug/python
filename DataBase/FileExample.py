@@ -4,13 +4,16 @@ def dream():
     name = ''
     while name != 'stop':
         name = input('Enter your username from your directory reference:   ')
+        result = ''
         for i in lines:
             i = i.split(';')
             if name == i[1]:
-                print(i[2])
+                result = i[2]
                 break
-            else:
-                print('You entered an invalid parameter, try again')
+        if result == '':
+            print('You entered an invalid parameter, try again')
+        else:
+            print(result)
         name = input('If you want to continue, press enter:   ')
 
 

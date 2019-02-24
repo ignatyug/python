@@ -1,0 +1,18 @@
+{
+  "cars": [
+    {
+      "number": 1,
+      "vendor": "Volkswagen",
+      "year": 2010
+    },
+    {
+      "number": 2,
+      "vendor": "Bently",
+      "year": 2018,
+      "driver": {
+        "name": "Petr",
+        "license": 2008
+      }
+    }
+  ]
+}

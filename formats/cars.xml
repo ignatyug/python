@@ -1,0 +1,11 @@
+<cars>
+    <car number="1" vendor="Volkswagen" year="2010">
+        <driver name="Petr" license="2001"/>
+    </car>
+    <car number="2" vendor="Bently" year="2018">
+        <driver name="Ivan" license="2009"/>
+    </car>
+    <car number="3" vendor="Lada" year="2008">
+        <driver name="Vova" license="2000"/>
+    </car>
+</cars>
